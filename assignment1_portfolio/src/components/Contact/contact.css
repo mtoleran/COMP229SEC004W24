@@ -50,7 +50,13 @@
     margin: 2rem;
     padding: 0.75rem 3.5rem;
     cursor: pointer;
+    font-weight: 600;
 }
+
+.submitBtn:hover {
+    text-decoration: underline;
+}
+
 ::placeholder {
     color: rgb(36, 34, 34);
     opacity: 1; /* Firefox */

@@ -44,6 +44,10 @@
     font-weight: 600;
 }
 
+.contactBtn:hover{
+  text-decoration: underline;
+}
+
 .contactImg{
     object-fit: cover;
     height: 1rem;
