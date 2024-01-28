@@ -8,18 +8,18 @@ const Navbar = () => {
     return (
         <nav className='navbar'>
             <img src={logo} alt='Logo' className='logo'/>
-            <div className='desktopMenu'>
-                <Link className='desktopMenuListItem' >Home</Link>
-                <Link className='desktopMenuListItem' >About Me</Link>
-                <Link className='desktopMenuListItem' >Projects</Link>
-                <Link className='desktopMenuListItem' >Services</Link>
+            <div className='navbarMenu'>
+                <Link className='navbarMenuListItem' >Home</Link>
+                <Link className='navbarMenuListItem' >About Me</Link>
+                <Link className='navbarMenuListItem' >Projects</Link>
+                <Link className='navbarMenuListItem' >Services</Link>
                 
             </div>
-            <button className='desktopMenuBtn'>
-                <img src={contactImg} alt='' className='desktopMenuImg'/>Contact Me
+            <button className='contactBtn'>
+                <img src={contactImg} alt='' className='contactImg'/>Contact Me
             </button>
         </nav>      
     )
 }
 
-export default Navbar
+export default Navbar;
