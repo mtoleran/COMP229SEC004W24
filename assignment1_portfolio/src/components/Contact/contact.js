@@ -21,7 +21,14 @@ const Contact = () => {
     return (
         <section className='contactPage'>
             <div className='contactDetails'>
-                <h1 className='contactPageTitle'>Contact Me</h1>
+                <h1 className='contactPageTitle'>Contact Information</h1>
+                <div className='contactDesc' >
+                    <ul>Name: Manuel Carl Jr. Toleran</ul>
+                    <ul>Email: manuelcarltoleran@gmail.com</ul>
+                    <ul>Contact Number: (647)-465-8069</ul>
+                </div>
+
+                <h1 className='contactPageTitle'>Send a message</h1>
                 <span className='contactDesc'>Fill out the form below to discuss potential work opportunities</span>
                 <form className='contactForm' ref={form} onSubmit={sendEmail}>
                     <input type='text' className='inputField' id='firstName' placeholder='Your First Name' name='first_name'></input>

@@ -13,6 +13,7 @@
 .aboutTitle{
     font-size: 3rem;
     font-weight: 600;
+    margin-top: 6.5rem;
     padding: 2rem;
     margin-bottom: 0.5rem;
 }
@@ -33,7 +34,7 @@
     height: 40vh;
     width: 40vh;
     position: absolute;
-    top: 62rem;
+    margin-top: 5rem;
     right: 25rem;
     z-index: -1;
     object-fit: cover;

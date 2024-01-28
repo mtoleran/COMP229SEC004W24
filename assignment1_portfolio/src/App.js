@@ -1,20 +1,14 @@
-import Navbar from "./components/NavBar/navbar";
-import Intro from "./components/Intro/intro";
-import About from "./components/About/about";
-import Projects from "./components/Projects/projects";
-import Services from "./components/Services/services";
-import Contact from "./components/Contact/contact"
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import MainRouter from './MainRouter';
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Intro/>
-      <About/>
-      <Projects/>
-      <Services/>
-      <Contact/>
+      <Router>
+        <MainRouter/>
+      </Router>
     </div>
   );
 }
