@@ -1,0 +1,65 @@
+#services{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.servicesTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 2rem;
+    margin-top: 15rem;
+    margin-bottom: 0.5rem;
+}
+
+.serviceBars{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.serviceBar{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: #5f6350;
+}
+
+.serviceBarImg{
+    object-fit: cover;
+    height: 5rem;
+    width: 5rem;
+    margin-right: 2rem;
+}
+
+.serviceBarText>p {
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+@media screen and (max-width:720px) {
+    .serviceBarText>p{
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .serviceBarText>h2 {
+        font-size: 5vw;
+    }
+    .serviceBarText>p{
+        font-size: 3vw;
+    }
+    .serviceBarImg{
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+}

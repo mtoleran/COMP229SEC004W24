@@ -18,7 +18,7 @@
 }
 
 .aboutDesc{
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 400;
     max-width: 40rem;
     padding: 0 1rem;
@@ -33,7 +33,7 @@
     height: 40vh;
     width: 40vh;
     position: absolute;
-    top: 55rem;
+    top: 62rem;
     right: 25rem;
     z-index: -1;
     object-fit: cover;
