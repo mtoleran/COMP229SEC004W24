@@ -4,7 +4,6 @@ import webDev from '../../assets/web_development.png';
 import mobileDev from '../../assets/mobile_development.png';
 import userInterface from '../../assets/userint_userex.png';
 
-
 const Services = () => {
     return(
         <section id='services'>
