@@ -1,0 +1,24 @@
+/* 
+    File: style.css
+    Name: Manuel Carl Jr. Toleran
+    ID: 301341708
+    Date: January 28, 2024
+*/
+
+/* properties for each portfolio page */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    font-family: 'Roboto+Mono', sans-serif;
+}
+
+/* properties for each portfolio page */
+body {
+    background: #494B42;
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+}
