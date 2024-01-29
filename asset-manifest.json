@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/github.io/COMP229SEC004W24/static/css/main.7bbd21c9.css",
-    "main.js": "/github.io/COMP229SEC004W24/static/js/main.6b939a01.js",
+    "main.js": "/github.io/COMP229SEC004W24/static/js/main.c806f570.js",
     "static/media/inkpanda.png": "/github.io/COMP229SEC004W24/static/media/inkpanda.3b76167d6caa968e7253.png",
     "static/media/toleran.jpg": "/github.io/COMP229SEC004W24/static/media/toleran.694320e5f6b5c093e73c.jpg",
     "static/media/resume.pdf": "/github.io/COMP229SEC004W24/static/media/resume.dce609a4404f0c573469.pdf",
@@ -11,10 +11,10 @@
     "static/media/web_development.png": "/github.io/COMP229SEC004W24/static/media/web_development.291637d96224388bc810.png",
     "index.html": "/github.io/COMP229SEC004W24/index.html",
     "main.7bbd21c9.css.map": "/github.io/COMP229SEC004W24/static/css/main.7bbd21c9.css.map",
-    "main.6b939a01.js.map": "/github.io/COMP229SEC004W24/static/js/main.6b939a01.js.map"
+    "main.c806f570.js.map": "/github.io/COMP229SEC004W24/static/js/main.c806f570.js.map"
   },
   "entrypoints": [
     "static/css/main.7bbd21c9.css",
-    "static/js/main.6b939a01.js"
+    "static/js/main.c806f570.js"
   ]
 }
