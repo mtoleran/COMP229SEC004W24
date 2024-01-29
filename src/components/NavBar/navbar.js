@@ -21,13 +21,13 @@ const Navbar = () => {
             {/* Navbar links div */}
             <div className='navbarMenu'>
                 {/* Navbar links */}
-                <Link className='navbarMenuListItem' to='/COMP229SEC004W24/home'>Home</Link>
-                <Link className='navbarMenuListItem' to='/COMP229SEC004W24/about' >About Me</Link>
-                <Link className='navbarMenuListItem' to='/COMP229SEC004W24/projects' >Projects</Link>
-                <Link className='navbarMenuListItem' to='/COMP229SEC004W24/services'>Services</Link> 
+                <Link className='navbarMenuListItem' to='/home'>Home</Link>
+                <Link className='navbarMenuListItem' to='/about' >About Me</Link>
+                <Link className='navbarMenuListItem' to='/projects' >Projects</Link>
+                <Link className='navbarMenuListItem' to='/services'>Services</Link> 
             </div>
             {/* Navbar contact me button */}
-            <Link className='contactLink' to='/COMP229SEC004W24/contact'>
+            <Link className='contactLink' to='/contact'>
                 <button className='contactBtn'>
                     <img src={contactImg} alt='' className='contactImg'/>Contact Me
                 </button>

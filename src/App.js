@@ -6,7 +6,7 @@
 */
 
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+//import { BrowserRouter as Router } from 'react-router-dom';
 import MainRouter from './MainRouter';
 
 //App function
@@ -14,9 +14,9 @@ function App() {
   return (
     //div for App
     <div className="App">
-      <Router>
+      {/* <Router> */}
         <MainRouter/>
-      </Router>
+      {/* </Router> */}
     </div>
   );
 }
