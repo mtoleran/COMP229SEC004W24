@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/github.io/COMP229SEC004W24/static/css/main.7bbd21c9.css",
-    "main.js": "/github.io/COMP229SEC004W24/static/js/main.c806f570.js",
-    "static/media/inkpanda.png": "/github.io/COMP229SEC004W24/static/media/inkpanda.3b76167d6caa968e7253.png",
-    "static/media/toleran.jpg": "/github.io/COMP229SEC004W24/static/media/toleran.694320e5f6b5c093e73c.jpg",
-    "static/media/resume.pdf": "/github.io/COMP229SEC004W24/static/media/resume.dce609a4404f0c573469.pdf",
-    "static/media/samuya.png": "/github.io/COMP229SEC004W24/static/media/samuya.242ac13f1fba7c40a131.png",
-    "static/media/tricep.jpg": "/github.io/COMP229SEC004W24/static/media/tricep.32701227d86a9091da98.jpg",
-    "static/media/userint_userex.png": "/github.io/COMP229SEC004W24/static/media/userint_userex.1a4e40e98bfdaceb9e84.png",
-    "static/media/web_development.png": "/github.io/COMP229SEC004W24/static/media/web_development.291637d96224388bc810.png",
-    "index.html": "/github.io/COMP229SEC004W24/index.html",
-    "main.7bbd21c9.css.map": "/github.io/COMP229SEC004W24/static/css/main.7bbd21c9.css.map",
-    "main.c806f570.js.map": "/github.io/COMP229SEC004W24/static/js/main.c806f570.js.map"
+    "main.css": "/github.io/static/css/main.7bbd21c9.css",
+    "main.js": "/github.io/static/js/main.32fd4eec.js",
+    "static/media/inkpanda.png": "/github.io/static/media/inkpanda.3b76167d6caa968e7253.png",
+    "static/media/toleran.jpg": "/github.io/static/media/toleran.694320e5f6b5c093e73c.jpg",
+    "static/media/resume.pdf": "/github.io/static/media/resume.dce609a4404f0c573469.pdf",
+    "static/media/samuya.png": "/github.io/static/media/samuya.242ac13f1fba7c40a131.png",
+    "static/media/tricep.jpg": "/github.io/static/media/tricep.32701227d86a9091da98.jpg",
+    "static/media/userint_userex.png": "/github.io/static/media/userint_userex.1a4e40e98bfdaceb9e84.png",
+    "static/media/web_development.png": "/github.io/static/media/web_development.291637d96224388bc810.png",
+    "index.html": "/github.io/index.html",
+    "main.7bbd21c9.css.map": "/github.io/static/css/main.7bbd21c9.css.map",
+    "main.32fd4eec.js.map": "/github.io/static/js/main.32fd4eec.js.map"
   },
   "entrypoints": [
     "static/css/main.7bbd21c9.css",
-    "static/js/main.c806f570.js"
+    "static/js/main.32fd4eec.js"
   ]
 }
