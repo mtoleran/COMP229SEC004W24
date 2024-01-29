@@ -1,8 +1,8 @@
 {
   "name": "assignment1_portfolio",
-  "homepage": "https://mtoleran/github.io/COMP229SEC004W24/#",
+  "homepage": "https://mtoleran/github.io/COMP229SEC004W24/",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
     "@testing-library/jest-dom": "^5.17.0",
