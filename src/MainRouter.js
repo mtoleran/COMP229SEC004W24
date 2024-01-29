@@ -21,12 +21,12 @@ const MainRouter = () => {
                 <Navbar />
                 {/* Routes for each page */}
                 <Routes>
-                        <Route exact path="/" element={<Home />} />
-                        <Route exact path="/home" element={<Home />} />
-                        <Route exact path="/about" element={<About />} />
-                        <Route exact path="/projects" element={<Projects />} />
-                        <Route exact path="/services" element={<Services />} />
-                        <Route exact path="/contact" element={<Contact />} />    
+                        <Route exact path="/COMP229SEC004W24/" element={<Home />} />
+                        <Route exact path="/COMP229SEC004W24/home" element={<Home />} />
+                        <Route exact path="/COMP229SEC004W24/about" element={<About />} />
+                        <Route exact path="/COMP229SEC004W24/projects" element={<Projects />} />
+                        <Route exact path="/COMP229SEC004W24/services" element={<Services />} />
+                        <Route exact path="/COMP229SEC004W24/contact" element={<Contact />} />    
                 </Routes>
         </div>
         )
