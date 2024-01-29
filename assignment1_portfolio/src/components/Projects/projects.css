@@ -1,3 +1,11 @@
+/* 
+    File: project.css
+    Name: Manuel Carl Jr. Toleran
+    ID: 301341708
+    Date: January 28, 2024
+*/
+
+/* properties for projects section */
 #projects{
     overflow: hidden;
     width: 100vw;
@@ -10,6 +18,7 @@
     margin: 0 auto;
 }
 
+/* properties for projects page title */
 .projectsTitle{
     font-size: 3rem;
     font-weight: 600;
@@ -18,6 +27,7 @@
     margin-bottom: 0.1rem;
 }
 
+/* properties for projects page div for all projects */
 .projectBars{
     margin: 1.5rem;
     width: 100vw;
@@ -27,6 +37,7 @@
     text-align: center;
 }
 
+/* properties for projects page images for each project */
 .projectBarImg{
     object-fit: cover;
     height: 20rem;
@@ -34,6 +45,7 @@
     padding: 1rem;
 }
 
+/* properties for projects page text description for each project */
 .projectBarText>p {
     font-size: 1rem;
     font-weight: 200;
@@ -44,6 +56,7 @@
     
 }
 
+/* properties for mobile screens */
 @media screen and (max-width:585px) {
     .projectBarImg{
         height: 50vw;

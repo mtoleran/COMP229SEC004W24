@@ -1,3 +1,11 @@
+/* 
+    File: service.css
+    Name: Manuel Carl Jr. Toleran
+    ID: 301341708
+    Date: January 28, 2024
+*/
+
+/* properties for services page section */
 #services{
     overflow: hidden;
     width: 100vw;
@@ -10,6 +18,7 @@
     margin: 0 auto;
 }
 
+/* properties for services page title */
 .servicesTitle{
     font-size: 3rem;
     font-weight: 600;
@@ -18,6 +27,7 @@
     margin-bottom: 0.5rem;
 }
 
+/* properties for div of all services */
 .serviceBars{
     margin: 1.5rem;
     width: 100vw;
@@ -25,6 +35,7 @@
     text-align: left;
 }
 
+/* properties for div of each service */
 .serviceBar{
     display: flex;
     margin: 1rem;
@@ -33,6 +44,7 @@
     background: #5f6350;
 }
 
+/* properties for image of each service */
 .serviceBarImg{
     object-fit: cover;
     height: 5rem;
@@ -40,17 +52,20 @@
     margin-right: 2rem;
 }
 
+/* properties for text of each service */
 .serviceBarText>p {
     font-size: 1rem;
     font-weight: 200;
 }
 
+/* properties for text size for mobile screens */
 @media screen and (max-width:720px) {
     .serviceBarText>p{
         font-size: 2vw;
     }
 }
 
+/* properties for text and image size for mobile screens */
 @media screen and (max-width:480px) {
     .serviceBarText>h2 {
         font-size: 5vw;

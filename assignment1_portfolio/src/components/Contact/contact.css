@@ -1,3 +1,11 @@
+/* 
+    File: contact.css
+    Name: Manuel Carl Jr. Toleran
+    ID: 301341708
+    Date: January 28, 2024
+*/
+
+/* properties for contact page section */
 .contactPage {
     min-width: calc(100vh - 10rem);
     width: 100vw;
@@ -9,17 +17,20 @@
     justify-content: center;
 }
 
+/* properties for contact page title */
 .contactPageTitle {
     font-size: 3rem;
     margin-top: 2rem;
 }
 
+/* properties for contact page description */
 .contactDesc {
     padding: 1rem;
     font-size: medium;
     font-weight: 300;
 }
 
+/* properties for contact page form */
 .contactForm {
     margin: 1rem;
     display: flex;
@@ -30,6 +41,7 @@
     max-width: 60rem;
 }
 
+/* properties for contact page fields */
 .inputField, .emailField, .msgField {
     font-size: medium;
     width: 100%;
@@ -43,6 +55,7 @@
 
 }
 
+/* properties for contact page submit button */
 .submitBtn{
     background: white;
     border: none;
@@ -53,15 +66,18 @@
     font-weight: 600;
 }
 
+/* properties for contact page submit button on hover action */
 .submitBtn:hover {
     text-decoration: underline;
 }
 
+/* properties for placeholder text in fields in firefox browser */
 ::placeholder {
     color: rgb(36, 34, 34);
     opacity: 1; /* Firefox */
 }
-  
+ 
+/* properties for placeholder text in fields in edge browser */
 ::-ms-input-placeholder { /* Edge 12 -18 */
     color: rgb(36, 34, 34);
 }

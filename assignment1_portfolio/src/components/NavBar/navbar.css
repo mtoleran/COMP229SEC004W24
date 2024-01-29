@@ -1,3 +1,11 @@
+/* 
+    File: navbar.css
+    Name: Manuel Carl Jr. Toleran
+    ID: 301341708
+    Date: January 28, 2024
+*/
+
+/* properties for navbar <nav> section */
 .navbar {
     background: #494B42;
     height: 10rem;
@@ -13,24 +21,28 @@
     z-index: 3;
 }
 
+/* properties for navbar image logo */
 .logo {
     object-fit: cover;
     height: 8rem;
     width: 12rem;
 }
 
+/* properties for navbar navigation links */
 .navbarMenuListItem {
     margin: 1rem;
     cursor: pointer;
     color: white;
 }
 
+/* properties for navbar navigation links on hover action */
 .navbarMenuListItem:hover {
     color: rgb(182, 126, 170);
     padding-bottom: 0.5rem;
     border-bottom: 3px solid rgb(182, 126, 170);;
 }
 
+/* properties for navbar contact me button */
 .contactBtn{
     background: white;
     color: black;
@@ -44,10 +56,12 @@
     font-weight: 600;
 }
 
+/* properties for navbar contact me button on hover action */
 .contactBtn:hover{
   text-decoration: underline;
 }
 
+/* properties for navbar contact me button image */
 .contactImg{
     object-fit: cover;
     height: 1rem;

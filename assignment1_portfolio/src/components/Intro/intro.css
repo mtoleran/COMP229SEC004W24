@@ -1,3 +1,11 @@
+/* 
+    File: intro.css
+    Name: Manuel Carl Jr. Toleran
+    ID: 301341708
+    Date: January 28, 2024
+*/
+
+/* properties for home page section */
 #intro{
     height: calc(100vh - 10rem);
     width: 100vw;
@@ -8,6 +16,7 @@
     top: -10rem;
 }
 
+/* properties for home page content div */
 .introContent{
     height: 100vh;
     width: 100vh;
@@ -19,25 +28,30 @@
     justify-content: center;
 }
 
+/* properties for home page 'hello' text */
 .helloText{
     font-size: 3rem;
     font-weight: 100;
 }
 
+/* properties for home page name text */
 .introName{
     color: rgb(182, 126, 170);
 }
 
+/* properties for home page name and role text */
 .introText{
     font-size: 4rem;
 }
 
+/* properties for home page short introduction text */
 .introPara{
     font-size: x-large;
     font-weight: 200;
     letter-spacing: 1px;   
 }
 
+/* properties for mobile screens */
 @media screen and (max-width:840px) {
     .bg{
         right: -10vw;
@@ -50,6 +64,7 @@
     }
 }
 
+/* properties for mobile screens */
 @media screen and (max-width:480px) {
     .bg{
         right: -20vh;
